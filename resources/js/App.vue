@@ -1,17 +1,12 @@
 <style lang="scss" scoped>
-
 </style>
 
 <template>
-    <div>
-        <router-view></router-view>
-    </div>
+	<div class="p-5">
+		<router-view></router-view>
+	</div>
 </template>
 
 <script>
-export default {
-    mouted() {
-        console.log('Vue application created!');
-    }    
-}
+export default {};
 </script>
